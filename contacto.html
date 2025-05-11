@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    
+    <header>
+        <h1 class="contacto">Formulario de contacto</h1>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="menu">
+                <a href="#">Secciones</a>
+                <ul class="menu-content">
+                  <li><a href="#">Noticias</a></li>
+                  <li><a href="quienes-somos.html">Quiénes somos</a></li>
+                  <li><a href="#">Publicaciones</a></li>
+                  <li><a href="areas.html">Áreas de actuación</a></li>
+                  <li><a href="#">Localización</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+    </header>
+    <div class="contenedor">
+    <div class="formulario">
+    <form action="mailto:davidfernandez20310@gmail.com">
+        <fieldset>
+            <legend>Datos Personales(*)</legend>
+
+            <div class="elemento">
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="Nombre" id="Nombre" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" id="apellidos" required>
+
+            <label for="dni">DNI/NIF:</label>
+            <input type="text" name="dni" id="dni" maxlength="9" required>
+            </div>
+            <div class="elemento">
+            <label for="FechNaci">Fecha de nacimiento:</label>
+            <input type="date" name="FechNaci" id="FechNaci">
+            </div>
+            <div class="elemento">
+            <label for="Pais">País de procedencia:</label>
+            <input type="text" name="Pais" id="Pais">
+
+            <label for="Provincia">Provincia:</label>
+            <input type="text" name="Provincia" id="Provincia">
+
+            <label for="CP">Código Postal:</label>
+            <input type="number" name="CP" id="CP" max="5">
+            </div>
+            <div class="elemento">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" name="telefono" id="telefono">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Interés</legend>
+            <div class="elemento">
+                <label for="interes">Motivo de su consulta:</label>
+                <select name="interes" id="interes" required>
+                    <option value="1">Sugerencia</option>
+                    <option value="2">Colaboración</option>
+                    <option value="3">Curso "Aumenta tu influencia en redes"</option>
+                    <option value="4">Reclamación</option>
+                    <option value="5">Cartas al director</option>
+                    <option value="6">Fe de erratas</option>
+                </select>
+                <label for="explicacion">Describa su elección:</label>
+                <textarea name="explicacion" id="explicacion"></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Términos y condiciones</legend>
+            <div class="terminos">
+                <label>
+                    <input type="checkbox" name="terminos" id="terminos" required><a href="terminos.html" class="hipervinculo">He leído</a> y acepto los términos
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Finalizando formulario</legend>
+            <div class="botones">
+            <label for="enviar"></label>
+            <input type="submit" value="ENVIAR">
+
+            <label for="borrar"></label>
+            <input type="reset" value="BORRAR">
+            </div>
+        </fieldset>
+    </form>
+    </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Deportes Total - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,375 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+
+header {
+  background-color: #222;
+  color: #ccc;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  margin: 0;
+  font-size: 30px;
+}
+header .titular{
+  font-size: 4rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  position: relative;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: darkseagreen;
+  text-decoration: none;
+  padding: 8px 12px;
+  font-size: 22px;
+}
+
+nav ul li a:hover {
+  background-color: grey;
+  border-radius: 4px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  color: darkseagreen;
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section h3 {
+  color:white;
+  background-color: grey;
+}
+
+section p {
+  color: black;
+}
+
+#destacado p {
+  font-size: 20px;
+}
+
+#destacado img {
+  height: 20%;
+  width: 95%;
+}
+
+#noticias img {
+  height: 15%;
+  width: 50%;
+}
+
+#noticias p {
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 0.9rem;
+}
+
+#noticias .imagenBaloncesto img {
+  margin-bottom: 2rem;
+
+}
+
+#noticias .imagenBaloncesto p {
+  line-height: 0.1;
+  margin-top: 3rem;
+}
+
+#noticias .aumento {
+  font-size: 35px;
+  color: darkorange;
+  margin-top: 1.8rem;
+}
+
+aside {
+  align-items: end;
+  text-align: end;
+  font-size: 18px;
+}
+
+#noticias .imgGrafico img {
+  height: 5%;
+  width: 35%;
+}
+
+aside ul {
+  list-style: none;
+  display: block;
+  margin-right: 6rem;
+  padding: 0;
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+footer {
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 7px;
+  margin-top: 1rem;
+}
+footer .redesSociales{
+  position: relative;
+  right: 0px;
+  bottom: 0px;
+  display:inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px auto 30px;
+  list-style: none;
+}
+footer .redesSociales li{
+  padding: 5px;
+}
+footer .redesSociales li a{
+  color: darkseagreen;
+  font-size: 1.5rem;
+  transition: 0.7s;
+  display: flex;
+}
+footer .redesSociales li:hover a{
+  color: white;
+}
+
+/* Menú desplegable */
+.menu{
+  margin-right: 2.4rem;
+}
+.menu-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: darkseagreen;
+  min-width: 160px;
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+}
+
+.menu:hover .menu-content {
+  display: block;
+}
+
+.menu-content li {
+  width: 100%;
+}
+
+.menu-content li a {
+  display: block;
+  width: 75%;
+  padding: 8px 12px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-content li a:hover {
+  background-color: grey;
+}
+
+/* PW Contacto */
+.contacto {
+  display: block;
+  /* color: ; */
+}
+.contenedor{
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: grey;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding: 50px;
+  display: flex;
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  width: 90%;
+  border-radius: 10px;
+  /* padding: 1rem; */
+  justify-content:center;
+  
+
+
+}
+
+.formulario 
+
+.elemento label,
+.elemento input {
+  display: inline-block;
+  width: 7rem;
+  margin-top: 0.4rem;
+  margin-left: 0.4rem;
+}
+.terminos label,
+.terminos input {
+  display: inline-flexbox;
+  width: 7rem;
+  margin-top: 0.4rem;
+  margin-left: 0.4rem;
+}
+
+.botones label,
+.botones input {
+  display: inline-flexbox;
+  width: 6rem;
+  margin-top: 1rem;
+  margin-left: 6rem;
+}
+
+fieldset{
+  background-color: forestgreen;
+  color: white;
+}
+.hipervinculo{
+  color:chocolate;
+}
+/* PW Quienes somos*/
+
+.quienesSomos{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3.9rem;
+  color: #ccc;
+  text-align: center;
+
+}
+.texto{
+  font-size: 1.5rem;
+  color:black;
+  text-align: justify;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.naranja{
+  color: darkorange;
+  text-decoration: underline;
+  font-size: 2rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+img{
+  height: 2%;
+  width: 17%;
+  max-height: 20%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* PW Áreas de actuación */
+.principal{
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.areas{
+  font-size: 1.9rem;
+  
+}
+article .anuncio{
+  font-size: 2rem;
+  color: darkorange;
+}
+article .subrayado{
+  font-size: 1.5rem;
+  text-decoration:underline;
+}
+article p{
+  font-size: 1.3rem;
+  text-align: justify;
+}
+/* Responsive */
+
+/* Escritorio grande (más de 1300px) */
+@media (min-width: 1300px) {
+  body {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
+
+/* Tablet horizontal (entre 992px y 1300px) */
+@media (min-width: 992px) and (max-width: 1299px) {
+  header {
+    flex-direction: row;
+    font-size: 1.8rem;
+  }
+  nav ul {
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+
+/* Tablet vertical (entre 768px y 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  .titular {
+    font-size: 2.5rem;
+  }
+}
+
+/* Posición horizontal (entre 480px y 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+  header {
+    flex-direction: column;
+    padding: 10px;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .titular {
+    font-size: 2rem;
+  }
+}
+
+/* Teléfono vertical (menos de 480px) */
+@media (max-width: 479px) {
+  header {
+    flex-direction: column;
+    padding: 8px;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .titular {
+    font-size: 1.5rem;
+  }
+  body {
+    font-size: 14px;
+  }
+}
